@@ -47,7 +47,7 @@
                         </div>
                         <div class="item">
                             <i class="cloud download icon"></i>
-                            <span class="content">选择版本后在下载</span>
+                            <span class="content">选择版本后再下载</span>
                         </div>
                         <div class="item">
                             <i class="balance scale icon"></i>
@@ -59,21 +59,19 @@
                 </div>
 
                 <aside class="four wide middle aligned column">
-                    <form class="ui form" id="download" method="post">
+                    <div class="ui form" id="DownloadContainer">
                         <div class="field">
-                            <select name="DownloadType" id="DownloadType">
+                            <select id="DownloadType">
                                 <optgroup label="Latest commit">
                                     <option value="https://cdn.dfggmc.top/resources/dfggrs/software/hap/F-OH-1.3.5.hap">v1.3.5</option>
                                 </optgroup>
                             </select>
                         </div>
-                        <button class="ui primary fluid labeled icon button" name="Download" type="submit">
+                        <button class="ui primary fluid labeled icon button" id="DownloadButton" type="submit">
                             <i class="download icon"></i>
                             下载
                         </button>
-                    </form>
-
-                    <!-- TODO: comment, rate, favourite, report buttons. -->
+                    </div>
                 </aside>
             </header>
         </article>
