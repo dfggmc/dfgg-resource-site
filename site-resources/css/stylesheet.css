@@ -134,6 +134,6 @@ The text doesn't go on the same line as the icon. */
 Also correct some visual issues after the scheme is applied, like text contrast. */
 .inverted.cuberite-theme
 {
-	background: #245A48 !important;
-	background: linear-gradient(220deg, #245d33, #24575D) fixed !important;
+	background: #ebedef !important;
+	background: linear-gradient(220deg, #ebedef, #ebedef) fixed !important;
 }
